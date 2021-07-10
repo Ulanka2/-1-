@@ -1,5 +1,6 @@
-d = dict.fromkeys([1, 4.7, 'hi', False, None], 'int', 'float', 'str', 'bool', 'none')
-print(d)
+def func(**kwargs):
+    print(kwargs)
 
+func(int=1, float=4.7, str='hi', bool=False, none=None)
 
 
